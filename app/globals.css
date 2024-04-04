@@ -3,31 +3,36 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
+    --dark-background: #201A27;
+    --dark-text-color: #EDEDED;
+    --dark-accent-green: #ABE6B2;
+    --dark-cards-background: #3F3B44;
+    --dark-element-active-background: #515251;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+    --background: #F4F4F4;          
+    --text-color: #333333;          
+    --accent-green: #498d49;        
+    --cards-background: #FFFFFF;    
+    --element-active-background: #e7e7e7; 
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+    color: var(--text-color);
+    background: var(--background);
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+html.dark body {
+    color: var(--dark-text-color);
+    background: var(--dark-background);
+}
+
+#routingMenu a.active {
+    background-color: var(--element-active-background);
+    color: var(--accent-green);
+}
+
+html.dark body
+#routingMenu a.active {
+    background-color: var(--dark-element-active-background);
+    color: var(--dark-accent-green);
 }
