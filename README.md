@@ -51,3 +51,7 @@ The dark/light switch is also present, allowing the user to switch between the t
 
 The user can also press the Edit button in the right side of the info entries, opening a modal (not fully implemented).
 
+
+## Preview
+
+![Website preview](./assets/nextjs-dashboard-preview1.png)
