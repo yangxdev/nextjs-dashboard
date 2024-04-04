@@ -5,6 +5,10 @@
 Welcome to my frontend challenge! This project will cover the main features and functionalities shown in the example design given by TC.
 The work has been done in the 'develop' branch of this repository, with clear commit titles and a proper development order, starting from project initialization with Next.js, to a setup of the main variables, and thus developing each component. The work is then merged on the 'main' branch, ready to be tested and analyzed by others.
 
+## Preview
+
+![Website preview](./assets/nextjs-dashboard-preview1.png)
+
 ## Table of Contents
 
 - [Installation](#installation)
@@ -50,8 +54,3 @@ This demo project lets the user navigate through the left-side routing menu pane
 The dark/light switch is also present, allowing the user to switch between the two themes on the top-right toggle.
 
 The user can also press the Edit button in the right side of the info entries, opening a modal (not fully implemented).
-
-
-## Preview
-
-![Website preview](./assets/nextjs-dashboard-preview1.png)
