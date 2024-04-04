@@ -1,8 +1,6 @@
 module.exports = {
-  darkMode: 'selector',
-
-  plugins: {
-    tailwindcss: {},
-    autoprefixer: {},
-  },
-};
+    plugins: {
+        tailwindcss: {},
+        autoprefixer: {},
+    },
+}

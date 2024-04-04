@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Tech Company Frontend Challenge
 
-## Getting Started
+**Disclaimer: the original name of the company has been anonymized, we'll call them "TC" from now on!**
 
-First, run the development server:
+Welcome to my frontend challenge! This project will cover the main features and functionalities shown in the example design given by TC.
+The work has been done in the 'develop' branch of this repository, with clear commit titles and a proper development order, starting from project initialization with Next.js, to a setup of the main variables, and thus developing each component. The work is then merged on the 'main' branch, ready to be tested and analyzed by others.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Table of Contents
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- [Installation](#installation)
+- [Usage](#usage)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Installation
+To get this project up and running on your local machine, follow these steps:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. **Clone the Repository:**
+    ```
+    git clone https://github.com/yangxdev/nextjs-dashboard.git
+    ```
+2. **Navigate to the Project Folder:**
+    ```
+    cd nextjs-dashboard
+    ```
+3. **Install Dependencies:**
+    Use npm to install the required dependencies.
+    ```
+    npm install
+    ```
+    If you prefer using yarn:
+    ```
+    yarn install
+    ```
+4. **Start the Development Server:**
+    Run the development server to view the project in your browser.
+    ```
+    npm run dev
+    ```
+    or with yarn:
+    ```
+    yarn dev
+    ```
+5. **Open in Your Browser:**
+    Once the development server is running, open your browser and go to http://localhost:3000 to see the project in action.
+    Now you have the project set up locally, and you can explore it, make modifications, and test it in your development environment.
 
-## Learn More
+## Usage
 
-To learn more about Next.js, take a look at the following resources:
+This demo project lets the user navigate through the left-side routing menu panel, showing each option's content on the right-side panel, currently containing only the "API Key" section, as per assignment.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The dark/light switch is also present, allowing the user to switch between the two themes on the top-right toggle.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+The user can also press the Edit button in the right side of the info entries, opening a modal (not fully implemented).
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

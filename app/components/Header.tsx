@@ -1,8 +1,8 @@
 "use client";
 import React, { useEffect } from 'react';
 import Image from 'next/image';
-// import logoDark from '../../TC-assets/TC-logo-inverted.svg';
-// import logoLight from '../../TC-assets/TC-logo.svg';
+import logoDark from '../../assets/nextjs-icon-dark.svg';
+import logoLight from '../../assets/nextjs-icon-light.svg';
 import { Moon } from "@phosphor-icons/react/dist/ssr/Moon";
 import { Sun } from "@phosphor-icons/react/dist/ssr/Sun";
 
@@ -20,7 +20,7 @@ const Header = () => {
 
     return (
         <header className='flex justify-between'>
-            {/* <Image className='cursor-pointer hover:scale-110 transform transition-transform duration-300' draggable={false} src={!darkMode ? logoDark : logoLight} alt="TC Logo" width="24" /> */}
+            <Image className='cursor-pointer hover:scale-110 transform transition-transform duration-300' draggable={false} src={!darkMode ? logoDark : logoLight} alt="TC Logo" width="24" />
             <label className="relative inline-flex items-center cursor-pointer">
                 <input type="checkbox" value="" className="sr-only peer" onChange={toggleDarkMode} checked={darkMode} />
                 <div className="w-11 h-6 bg-gray-200 peer-focus:outline-none 
