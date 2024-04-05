@@ -3,7 +3,7 @@
 **Disclaimer: the original name of the company has been anonymized, we'll call them "TC" from now on!**
 
 Welcome to my frontend challenge! This project will cover the main features and functionalities shown in the example design given by TC.
-The work has been done in the 'develop' branch of this repository, with clear commit titles and a proper development order, starting from project initialization with Next.js, to a setup of the main variables, and thus developing each component. The work is then merged on the 'main' branch, ready to be tested and analyzed by others.
+The work has been previously done in the 'develop' branch of a private repository, with clear commit titles and a proper development order, starting from project initialization with Next.js, to a setup of the main variables, and thus developing each component. The work is then merged on the 'main' branch, ready to be tested and analyzed by others. The project has since been moved to a personal public repository, in the 'main' branch.
 
 ## Preview
 
